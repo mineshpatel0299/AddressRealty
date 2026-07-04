@@ -25,7 +25,7 @@ export default function Home() {
         {/* Main Hero Content */}
         <div className="flex flex-col items-center max-w-4xl mt-16">
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-serif font-medium text-white leading-tight mb-8 animate-fade-in-up drop-shadow-xl tracking-tight">
-            Coming <span className="italic font-light text-white/90">Soon</span>
+            Under <span className="italic font-light text-white/90">Construction</span>
           </h1>
 
           <p className="text-lg md:text-xl text-white/70 max-w-2xl mb-12 animate-fade-in-up-delay-1 font-light leading-relaxed">
