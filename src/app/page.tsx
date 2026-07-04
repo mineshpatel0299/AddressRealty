@@ -24,6 +24,7 @@ export default function Home() {
 
         {/* Main Hero Content */}
         <div className="flex flex-col items-center max-w-4xl mt-16">
+          <p className="text-sm md:text-base uppercase tracking-[0.3em] text-white/70 mb-4 animate-fade-in-up font-light">the site is</p>
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-serif font-medium text-white leading-tight mb-8 animate-fade-in-up drop-shadow-xl tracking-tight">
             Under <span className="italic font-light text-white/90">Construction</span>
           </h1>
