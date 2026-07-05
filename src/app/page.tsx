@@ -3,6 +3,17 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="relative flex-grow flex flex-col items-center justify-center min-h-screen overflow-hidden bg-black selection:bg-gold-500/30 selection:text-white">
+      {/* Header with Logo */}
+      <header className="absolute top-0 w-full p-6 md:p-10 flex justify-center z-20">
+        <Image
+          src="/logo.png"
+          alt="The Address Realty Logo"
+          width={200}
+          height={80}
+          className="object-contain animate-fade-in-down drop-shadow-md brightness-0 invert opacity-90"
+        />
+      </header>
+
       {/* Background Image Container */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <Image
